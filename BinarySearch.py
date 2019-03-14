@@ -1,4 +1,5 @@
 """
+Recursive Approach to the Binary Search
 Binary Search Works well in sorted List
 """
 def search(searchList, key):
