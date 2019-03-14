@@ -1,5 +1,6 @@
 """
 Recursive Approach to the Binary Search
+Recursion is part of many different algorithmic programming solutions.
 Binary Search Works well in sorted List
 """
 def search(searchList, key):
