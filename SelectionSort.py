@@ -20,7 +20,7 @@ for scanIndex in range(0, len(data)):
             minIndex = compIndex
 
     if minIndex != scanIndex:
-        data[scanIndex], data[minIndex] = \
+        data[scanIndex], data[minIndex] = \ #Note \ denotes multiline assignment operator
         data[minIndex], data[scanIndex]
         print(data)
 """
