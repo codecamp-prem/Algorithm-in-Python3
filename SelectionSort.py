@@ -1,7 +1,7 @@
 """
 The selection sort replaced a predecessor, the bubble sort, because it tends to provide
 better performance than the bubble sort. 
-Even though both sorts have a worst-case sort speed of O(n2), the selection sort performs fewer exchanges. 
+Even though both sorts have a worst-case sort speed of O(n^2), the selection sort performs fewer exchanges. 
 A selection sort works in one of two ways: 
   It either looks for the smallest item in the list and places it in the front of the list 
   (ensuring that the item is in its correct location) or 
