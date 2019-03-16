@@ -1,4 +1,6 @@
 """
+Sub: Stack implementation in Python
+
 A stack provides last in/first out (LIFO) data storage.
 -----------------------------
 
