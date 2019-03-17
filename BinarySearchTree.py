@@ -1,6 +1,23 @@
 """
 Custom code to create Binary Search Tree
 ----------------------------------------
+One of the Two of the more efficient methods of searching involve the use of the binary
+search tree (BST) and binary heap. 
+
+Both of the search techniques rely on a treelike structure to hold the keys used to access data elements. 
+However, the arrangement of the two methods is different, which is why one has advantages over the
+other when performing certain tasks. 
+
+BST has some advantages over binary heap when used to perform a search. 
+The following list provides some of the highlights of these advantages:
+
+» Searching for an element requires O(log n) time, contrasted to O(n) time for a
+binary heap.
+» Printing the elements in order requires only O(log n) time, contrasted to O(n
+log n) time for a binary heap.
+» Finding the floor and ceiling requires O(log n) time.
+» Locating Kth smallest/largest element requires O(log n) time when the tree is
+properly configured.
 """
 
 class TreeNode:
