@@ -81,35 +81,43 @@ O/P:
 Left Side:  [9]
 Right Side:  [5]
 Merged  [5, 9]
+
 Left Side:  [4]
 Right Side:  [2]
 Merged  [2, 4]
+
 Left Side:  [7]
 Right Side:  [2, 4]
 Result:  [2]
 Merged  [2, 4, 7]
+
 Left Side:  [5, 9]
 Right Side:  [2, 4, 7]
 Result:  [2]
 Result:  [2, 4]
 Result:  [2, 4, 5]
 Merged  [2, 4, 5, 7, 9]
+
 Left Side:  [8]
 Right Side:  [1]
 Merged  [1, 8]
+
 Left Side:  [6]
 Right Side:  [3]
 Merged  [3, 6]
+
 Left Side:  [10]
 Right Side:  [3, 6]
 Result:  [3]
 Merged  [3, 6, 10]
+
 Left Side:  [1, 8]
 Right Side:  [3, 6, 10]
 Result:  [1]
 Result:  [1, 3]
 Result:  [1, 3, 6]
 Merged  [1, 3, 6, 8, 10]
+
 Left Side:  [2, 4, 5, 7, 9]
 Right Side:  [1, 3, 6, 8, 10]
 Result:  [1]
