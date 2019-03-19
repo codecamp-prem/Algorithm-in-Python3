@@ -28,7 +28,7 @@ bubbleSort(alist)
 print(alist)
 
 # short bubble
-# to check whether list is sorted or not.
+# to check whether list is in sorted order or not.
 def shortBubbleSort(alist):
     exchanges = True
     passnum = len(alist)-1
