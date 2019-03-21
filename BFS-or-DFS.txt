@@ -1,0 +1,16 @@
+Determining which application to use(Breadth First Search or Depth First Search)
+-------------------------------------------------------------------------------
+I) The choice between BFS and DFS depends on how you plan to apply the output
+from the search. 
+Developers often employ BFS to locate the shortest route between two points as quickly as possible. 
+This means that you commonly find BFS used in applications such as GPS, where finding the shortest route is paramount. 
+You can see BFS used for spanning tree, shortest path, and many other minimization algorithms in differnet books, code example.
+
+II) A DFS focuses on finding an entire path before exploring any other path. 
+You use it when you need to search in detail, rather than generally. 
+For this reason, you often see DFS used in games, where finding a complete path is important. 
+It’s also an optimal approach to perform tasks such as finding a solution to a maze.
+
+III) Sometimes you have to decide between BFS and DFS based on the limitations of each technique. 
+BFS needs lots of memory because it systematically stores all the paths before finding a solution. 
+On the other hand, DFS needs less memory, but you have no guarantee that it’ll find the shortest and most direct solution.
